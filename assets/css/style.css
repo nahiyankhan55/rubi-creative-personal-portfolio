@@ -9,7 +9,18 @@ body {
   overflow-x: hidden;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   font-family: "Literata", serif;
   font-weight: 700;
   color: #0c111a;
@@ -45,7 +56,12 @@ h6 {
   line-height: 1.4;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
 }
 
@@ -54,7 +70,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .text-color {
-  color: #FF3D4F;
+  color: #ff3d4f;
 }
 
 .letter-spacing {
@@ -76,7 +92,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .btn-main {
-  background: #FF3D4F;
+  background: #ff3d4f;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -98,7 +114,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   border-radius: 28px;
 }
 
-.btn.active:focus, .btn:active:focus, .btn:focus {
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
   outline: 0;
   box-shadow: none;
 }
@@ -116,7 +134,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 0px 0;
 }
 
 .section-sm {
@@ -124,11 +142,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .section-top {
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 .section-bottom {
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 
 .section-title {
@@ -149,7 +167,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   height: 3px;
   right: 0px;
   margin: 0 auto;
-  background: #FF3D4F;
+  background: #ff3d4f;
 }
 
 .title {
@@ -168,7 +186,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   bottom: 0px;
   width: 40px;
   height: 3px;
-  background: #FF3D4F;
+  background: #ff3d4f;
 }
 
 .overly {
@@ -190,14 +208,15 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 a {
   color: #0c111a;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 }
 
 a:hover {
-  color: #FF3D4F;
+  color: #ff3d4f;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
   outline: none;
   text-decoration: none;
 }
@@ -207,7 +226,7 @@ a:focus, a:hover {
 }
 
 .primary-bg {
-  background: #FF3D4F;
+  background: #ff3d4f;
 }
 
 .form-control {
@@ -228,7 +247,7 @@ a:focus, a:hover {
   padding: 40px 20px !important;
   text-transform: uppercase;
   font-size: 14px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-weight: 700;
 }
 
@@ -237,14 +256,14 @@ a:focus, a:hover {
 }
 
 .navigation .nav-link.active {
-  color: #FF3D4F;
+  color: #ff3d4f;
 }
 
 .site-header.scrolled {
   position: fixed;
   top: 0;
   background: #fff;
-  transition: .0s all ease;
+  transition: 0s all ease;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   z-index: 9999;
@@ -252,7 +271,7 @@ a:focus, a:hover {
 }
 
 .site-header.awake {
-  transition: .3s all ease;
+  transition: 0.3s all ease;
   -webkit-transform: translateY(0%);
   transform: translateY(0%);
 }
@@ -273,7 +292,7 @@ a:focus, a:hover {
   padding: 40px 15px !important;
   text-transform: uppercase;
   font-size: 14px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-weight: 700;
   color: #fff !important;
 }
@@ -357,7 +376,7 @@ a:focus, a:hover {
   width: 100%;
   height: 100%;
   background: #000a2d;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .banner-content {
@@ -532,16 +551,18 @@ a:focus, a:hover {
   background: #fff;
   position: relative;
   z-index: 1;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
 
-.service-item h4, .service-item i, .service-item p {
-  transition: all .45s ease;
+.service-item h4,
+.service-item i,
+.service-item p {
+  transition: all 0.45s ease;
 }
 
 .service-item i {
   font-size: 50px;
-  color: #FF3D4F;
+  color: #ff3d4f;
 }
 
 .service-item p {
@@ -553,12 +574,12 @@ a:focus, a:hover {
   content: "";
   left: 0px;
   top: 0px;
-  background: #FF3D4F;
+  background: #ff3d4f;
   width: 100%;
   height: 70%;
   opacity: 0;
   z-index: -1;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
 
 .service-item:hover:before {
@@ -591,14 +612,14 @@ a:focus, a:hover {
   text-decoration: underline;
   font-size: 14px;
   font-weight: 600;
-  letter-spacing: .5px;
-  transition: all .45s ease;
+  letter-spacing: 0.5px;
+  transition: all 0.45s ease;
 }
 
 .read-more i {
   font-size: 14px;
   margin-left: 5px;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
 
 .read-more:hover i {
@@ -634,7 +655,7 @@ a:focus, a:hover {
   content: "";
   left: 0px;
   top: 0px;
-  background: #FF3D4F;
+  background: #ff3d4f;
   width: 50px;
   height: 5px;
   z-index: -1;
@@ -657,7 +678,7 @@ a:focus, a:hover {
 
 .counter-item i {
   font-size: 40px;
-  color: #FF3D4F;
+  color: #ff3d4f;
 }
 
 .counter-item .counter {
@@ -719,7 +740,7 @@ a:focus, a:hover {
   height: 100%;
   background: url("../images/4.png") no-repeat;
   background-size: cover;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .experience .content {
@@ -757,11 +778,11 @@ a:focus, a:hover {
   top: 0px;
   width: 100%;
   height: 70%;
-  background: #FF3D4F;
+  background: #ff3d4f;
   z-index: 1;
   opacity: 0;
   visibility: hidden;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
 
 .team-block .team-content {
@@ -782,16 +803,18 @@ a:focus, a:hover {
   margin-top: -50px;
   opacity: 0;
   visibility: hidden;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
 
-.team-block .overlay-content h4, .team-block .overlay-content span, .team-block .overlay-content a i {
+.team-block .overlay-content h4,
+.team-block .overlay-content span,
+.team-block .overlay-content a i {
   color: #fff;
 }
 
 .team-block .overlay-content p {
   color: #fff;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .team-block .overlay-content ul {
@@ -841,7 +864,7 @@ a:focus, a:hover {
 }
 
 #testimonial .slick-dots li.slick-active button::before {
-  color: #FF3D4F;
+  color: #ff3d4f;
 }
 
 .testimonial-item {
@@ -868,7 +891,7 @@ a:focus, a:hover {
   left: 39px;
   top: 0px;
   font-size: 80px;
-  opacity: .09;
+  opacity: 0.09;
 }
 
 .lh-45 {
@@ -898,7 +921,7 @@ a:focus, a:hover {
   top: 0;
   left: 0;
   height: 100%;
-  background: #FF3D4F;
+  background: #ff3d4f;
   border-radius: 0px;
   transition: all 3s ease-in-out;
 }
@@ -923,11 +946,11 @@ a:focus, a:hover {
   top: 0px;
   width: 100%;
   height: 70%;
-  background: #FF3D4F;
+  background: #ff3d4f;
   z-index: 1;
   opacity: 0;
   visibility: hidden;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
 
 .portfolio-item .overlay-content {
@@ -944,7 +967,7 @@ a:focus, a:hover {
   margin-top: -25px;
   opacity: 0;
   visibility: hidden;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
 
 .portfolio-item .overlay-content h5 {
@@ -956,7 +979,7 @@ a:focus, a:hover {
   width: 40px;
   height: 40px;
   background: #f6f5ff;
-  color: #FF3D4F;
+  color: #ff3d4f;
   text-align: center;
   display: inline-block;
   padding-top: 8px;
@@ -983,21 +1006,23 @@ a:focus, a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.07) !important;
 }
 
-.portfolio .btn:focus, .portfolio .btn:hover {
+.portfolio .btn:focus,
+.portfolio .btn:hover {
   box-shadow: none !important;
 }
 
 .portfolio .btn.active {
   background: rgba(255, 61, 79, 0.04);
   background: transparent;
-  color: #FF3D4F;
+  color: #ff3d4f;
 }
 
 .portfolio .btn-group > .btn {
   box-shadow: none !important;
 }
 
-.portfolio .btn-group:not(:first-child) > .btn, .portfolio .btn-group > .btn:not(:first-child) {
+.portfolio .btn-group:not(:first-child) > .btn,
+.portfolio .btn-group > .btn:not(:first-child) {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
@@ -1040,13 +1065,13 @@ a:focus, a:hover {
 }
 
 .company-info ul li i {
-  color: #FF3D4F;
+  color: #ff3d4f;
   margin-right: 20px;
   font-size: 30px;
 }
 
 .process-wrap .block span {
-  color: #FF3D4F;
+  color: #ff3d4f;
   margin-right: 5px;
 }
 
@@ -1074,7 +1099,7 @@ a:focus, a:hover {
   background: #000a2d;
   width: 100%;
   height: 100%;
-  opacity: .95;
+  opacity: 0.95;
 }
 
 .page-title h1 {
@@ -1098,9 +1123,11 @@ a:focus, a:hover {
   background: #f6f5ff;
 }
 
-.form-control:hover, .form-control:focus, .form-control.focus {
-  border-color: #FF3D4F;
-  box-shadow: #FF3D4F;
+.form-control:hover,
+.form-control:focus,
+.form-control.focus {
+  border-color: #ff3d4f;
+  box-shadow: #ff3d4f;
 }
 
 #map {
@@ -1151,9 +1178,9 @@ a:focus, a:hover {
 }
 
 .sidebar .widget-title:after {
-  background: #FF3D4F;
+  background: #ff3d4f;
   display: block;
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -1185,7 +1212,7 @@ a:focus, a:hover {
 }
 
 .sidebar .social-links a:hover {
-  background: #FF3D4F;
+  background: #ff3d4f;
   color: #fff;
 }
 
@@ -1378,7 +1405,7 @@ pre {
 .footer-top a {
   width: 60px;
   height: 60px;
-  background: #FF3D4F;
+  background: #ff3d4f;
   display: inline-block;
   color: #fff;
   text-align: center;
