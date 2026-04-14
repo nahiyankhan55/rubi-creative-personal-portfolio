@@ -141,12 +141,8 @@ h6 a {
   padding: 70px 0;
 }
 
-.section-top {
-  padding-top: 0px;
-}
-
 .section-bottom {
-  padding-bottom: 0px;
+  padding-bottom: 100px;
 }
 
 .section-title {
